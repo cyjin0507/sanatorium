@@ -1,1 +1,3 @@
-fghgfhgfh
+<script>
+    window.location.href="../"
+</script>
