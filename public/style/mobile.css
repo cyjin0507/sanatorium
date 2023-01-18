@@ -1,0 +1,736 @@
+@media screen and (max-width:500px) {
+    
+    header {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #302E2C;
+        z-index: 9999;
+        margin-left: -500px;
+        transition: all .5s;
+        visibility: hidden;
+    }
+
+    #headerUnder > ul > li > div {
+        cursor: pointer;
+        color: white;
+    }
+
+    #xBtn {
+        position: absolute;
+        color: white;
+        font-size: 25px;
+        left: 100%;
+        transform: translateX(-150%);
+        margin-top: 10px;
+        z-index: 10;
+        cursor: pointer;
+        display: block;
+    }
+
+    #menuBar {
+        width: 35px;
+        margin-top: 10px;
+        position: absolute;
+        z-index: 99999;
+        display: block;
+    }
+
+    #headerTop {
+        display: block;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #logoMoblie {
+        display: block;
+        width: 230px;
+        height: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+        margin-top: 10px;
+    }
+    #headerTop > nav > ul > div {
+        display: none;
+    }
+
+    #headerTop > nav > ul {
+        flex-direction: column;
+        /* width: 90%; */
+    }
+
+    #headerTop > nav > ul > li {
+        padding: 20px 20px;
+        color: white;
+    }
+
+    #headerUnder {
+        position: relative;
+        border: none;
+    }
+
+    #headerUnder > ul {
+        flex-direction: column;
+    }
+
+    #headerUnder > ul > li {
+        width: 180px;
+        padding: 20px 20px;
+        color: white;
+    }
+
+    #mobile {
+        padding-top: 40px;
+    }
+
+    #visual {
+        height: 200px;
+        background-position: 50% 50%;
+        background-size: auto 100%;
+    }
+
+    #visual-txt {
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    #visual-info {
+        margin-top: 200px;
+        background-color: white;
+        height: 100px;
+    }
+
+    #visual-info>ul {
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 310px;
+    }
+
+    #visual-info>ul img {
+        width: 50px;
+        margin-left: 6px;
+    }
+
+    #visual-info>ul>li>a>div {
+        font-size: 15px;
+    }
+
+    #section2 {
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    #section2 > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #galleryInfo > h3 {
+        font-size: 25px;
+    }
+
+    #galleryInfo > p {
+        font-size: 12px;
+    }
+
+    #galleryInfo button {
+        font-size: 12px;
+        width: 100px;
+        height: 25px;
+    }
+
+    #sec3Inner {
+        width: 90%;
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+
+    #sec3Inner > h2 {
+        font-size: 25px;
+    }
+
+    #sec3Inner > p {
+        font-size: 12px;
+    }
+
+    #sec3Main {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .sec3Detail {
+        width: 100%;
+    }
+
+    .sec3Detail:hover {
+        transform: translate(0px, 0px);
+    }
+
+    .sec3Detail > h3 {
+        font-size: 16px;
+        width: 142px;
+    }
+
+    .sec3Detail > div {
+        font-size: 12px;
+    }
+
+    .sec3Detail > div > span {
+        font-size: 11px;
+    }
+
+    .sec3Detail button {
+        font-size: 10px;
+        width: 60px;
+        height: 22px;
+        margin-top: 10px;
+    }
+
+    #sec3Inner > a > button {
+        font-size: 12px;
+        width: 90px;
+        height: 25px;
+        margin-top: 30px;
+    }
+
+    #section1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #help {
+        height: 180px;
+        padding-top: 30px;
+        width: 90%;
+        margin: auto;
+    }
+
+    #help>div:nth-child(1) {
+        font-size: 22px;
+    }
+
+    #help>div:nth-child(1)>span {
+        font-size: 24px;
+    }
+
+    #help>div:nth-child(2) {
+        font-size: 28px;
+    }
+
+    #help>div:nth-child(2)>span {
+        font-size: 26px;
+    }
+
+    #help>div:nth-child(3) {
+        font-size: 14px;
+    }
+
+    #business {
+        margin: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    #business>ul>li {
+        height: 160px;
+    }
+
+    #business>ul>li>a>h3 {
+        padding-top: 40px;
+        font-size: 16px;
+    }
+
+    #business>ul>li>a>h3::after {
+        height: 20px;
+    }
+
+    #business>ul>li>a>p {
+        font-size: 12px;
+    }
+
+    footer {
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #footer {
+        width: 90%;
+    }
+
+    #footer>nav>ul {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    #footer>nav>ul>li:nth-child(2) {
+        font-size: 11px;
+    }
+
+    footer img {
+        width: 200px;
+        height: 30px;
+    }
+
+    #footer>div:nth-child(3) {
+        font-size: 11px;
+    }
+
+    #footer>div:nth-child(4) {
+        font-size: 11px;
+    }
+
+    #subVisual {
+        background-position: 50% 50%;
+        background-size: auto 100%;
+        height: 160px;
+    }
+
+    #sub-visual-txt {
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+
+    #pageUrl {
+        margin-top: 100px;
+        margin-left: 80px;
+        font-size: 12px;
+    }
+
+    #pageUrl>span {
+        font-size: 13px;
+    }
+
+    #login {
+        margin-bottom: 196px;
+    }
+
+    #login>h2 {
+        font-size: 25px;
+    }
+
+    #loginArea>input {
+        height: 30px;
+    }
+
+    #loginHelp>ul {
+        font-size: 12px;
+    }
+
+    #introduce {
+        width: 100%;
+    }
+
+    #introduce > h2 {
+        font-size: 25px;
+    }
+
+    #introduceImg {
+        height: 150px;
+    }
+
+    #introduceP1 {
+        font-size: 25px;
+        width: 90%;
+        margin: auto;
+    }
+
+    #introduceP1::after {
+        height: 2px;
+    }
+
+    #introduceP2 {
+        font-size: 13px;
+        width: 90%;
+        margin: auto;
+    }
+
+    #introduceP3 {
+        font-size: 18px;
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #introduceP4 {
+        font-size: 12px;
+        line-height: 1.3;
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    #history {
+        width: 90%;
+    }
+
+    #history > h2 {
+        font-size: 25px;
+    }
+
+    #historyMain {
+        margin-top: 30px;
+    }
+
+    .historyYear {
+        font-size: 28px;
+    }
+
+    .historyMonth {
+        font-size: 24px;
+    }
+
+    .historyList > div {
+        font-size: 14px;
+    }
+
+    #album {
+        width: 90%;
+    }
+
+    #album > h2 {
+        font-size: 25px;
+    }
+
+    #albumList {
+        margin-top: 10px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #albumDetailShow {
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 200px;
+    }
+
+    #albumDetailShow > h2 {
+        font-size: 25px;
+    }
+
+    #albumTitleInfo {
+        font-size: 10px;
+    }
+
+    #albumDetailShow > img {
+        width: 100%;
+    }
+
+    #notice {
+        width: 90%;
+        padding-bottom: 2px;
+    }
+
+    #noticeMainContent > div > div:nth-child(5), #noticeMainContent > div > div:nth-child(6) {
+        display: none;
+    }
+
+    #noticeMainContent > a > div:nth-child(5), #noticeMainContent > a > div:nth-child(6) {
+        display: none;
+    }
+
+    .noticeColumn > div:nth-child(1) {
+        width: 13%;
+    }
+    
+    .noticeColumn > div:nth-child(2) {
+        width: 44%;
+    }
+    
+    .noticeColumn > div:nth-child(3) {
+        width: 12%;
+    }
+    
+    .noticeColumn > div:nth-child(4) {
+        width: 19%;
+    }
+
+    .noticeLook {
+        font-size: 11px;
+    }
+
+    #noticeTitle {
+        font-size: 13px;
+    }
+
+    #notice > h2 {
+        font-size: 25px;
+    }
+
+    #albumTitleInfo > div:nth-child(3) > div:nth-child(3),
+    #albumTitleInfo > div:nth-child(3) > div:nth-child(4),
+    #albumTitleInfo > div:nth-child(3) > div:nth-child(5),
+    #albumTitleInfo > div:nth-child(3) > div:nth-child(6)
+     {
+        display: none;
+    }
+
+    #albumTitleInfo > div:nth-child(3) > div:nth-child(1) {
+        width: 20%;
+    }
+
+    #recommandBtn {
+        font-size: 12px;
+        width: 100px;
+        height: 25px;
+    }
+    
+    #questionBtn {
+        width: 100px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    #noticeWrite {
+        width: 90%;
+        margin-bottom: 140px;
+    }
+
+    #noticeWriteMain {
+        width: 100%;
+    }
+
+    #noticeWriteMain > div > input {
+        height: 25px;
+    }
+
+    #noticeWriteMain > button {
+        font-size: 12px;
+    }
+
+    #question {
+        width: 90%;
+    }
+
+    .noticeColumn > div:nth-child(4), .noticeColumn > div:nth-child(5) {
+        display: none;
+    }
+
+    .questionTxt {
+        font-size: 12px;
+    }
+
+    .answerTxt {
+        font-size: 12px;
+    }
+
+    #rootShow {
+        width: 90%;
+        margin-bottom: 86.5px;
+    }
+
+    #rootShow > h2 {
+        font-size: 25px;
+    }
+
+    #rootInfo {
+        flex-direction: column;
+    }
+
+    #rootInfo > div {
+        width: 100%;
+    }
+
+    #map {
+        height: 200px;
+    }
+
+    #rootInfo > div > div:nth-child(1) {
+        font-size: 15px;
+    }
+
+    #rootInfo > div > div:nth-child(2) {
+        font-size: 12px;
+    }
+
+    #howTouse2 {
+        width: 100%;
+    }
+
+    #howTouse2 > h2 {
+        font-size: 25px;
+    }
+
+    #howToUseImg > img {
+        width: 100%;
+    }
+
+    .mainTitle {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    #howTouse2 table {
+        margin: 0;
+    }
+
+    #howToUseMain {
+        padding: 0;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    #howTouse2 table th {
+        font-size: 12px;
+        padding: 5px 2px;
+    }
+
+    #howTouse2 table td {
+        font-size: 12px;
+        padding: 5px 2px;
+    }
+
+    .howToUseInfo {
+        font-size: 12px;
+    }
+
+    #schedule {
+        width: 90%;
+    }
+
+    #schedule > h2 {
+        font-size: 25px;
+    }
+
+    #scheduleMain {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    #schedule table td {
+        font-size: 12px;
+        padding: 5px 2px;
+    }
+
+    #schedule table th {
+        font-size: 12px;
+        padding: 5px 2px;
+    }
+
+    #volunteerInfo {
+        width: 100%;
+    }
+
+    #volunteerInfo > h2 {
+        font-size: 25px;
+    }
+    
+    .volunteerInfoMain h2 span {
+        font-size: 15px;
+    }
+
+    .volunteerInfoMain p {
+        font-size: 12px;
+    }
+
+    .imgbox > img {
+        width: 100%;
+    }
+
+    #volunteerInfo > div > p:nth-child(13) > b {
+        font-size: 15px;
+    }
+
+    #service {
+        width: 90%;
+    }
+
+    #service > h2 {
+        font-size: 25px;
+    }
+
+    #serviceContent {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .serviceInfo {
+        font-size: 12px;
+    }
+
+    #service table th {
+        font-size: 12px;
+        padding: 5px 2px;
+    }
+
+    #service table td {
+        font-size: 12px;
+        padding: 5px 2px;
+    }
+
+    #nurseInfo p {
+        font-size: 12px;
+    }
+
+    #howTouse {
+        width: 90%;
+    }
+
+    #howTouse > h2 {
+        font-size: 25px;
+    }
+
+    #howToUseImg {
+        margin: 30px 0 20px 0;
+    }
+
+    #howToUseSubInfo {
+        font-size: 12px;
+    }
+
+    .td  {
+        font-size: 12px;
+    }
+
+    #howTouse table th {
+        font-size: 11px;
+        padding: 5px 2px;
+    }
+
+    .howToUseInfo {
+        font-size: 12px;
+    }
+
+    .subMenu li {
+        background-color: white;
+        color: black;
+    }
+
+    footer nav {
+        display: none;
+    }
+
+    #siteMap {
+        width: 90%;
+    }
+
+    #siteMap > h2 {
+        font-size: 25px;
+    }
+
+    #siteMapMain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .siteArea > h3 {
+        font-size: 15px;
+    }
+
+    .siteArea > div > a {
+        font-size: 12px;
+    }
+
+}
