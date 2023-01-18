@@ -13,9 +13,9 @@ define('__VOLUNTEER', __DIR__ . __DS . 'upload' . __DS . 'volunteer');
 define('__NOTICE', __DIR__ . __DS . 'upload' . __DS . 'notice');
 
 
-// require_once __ROOT . __DS . 'autoloader.php';
-// require_once __ROOT . __DS . 'lib.php';
-// require_once __ROOT . __DS . 'web.php';
+require_once __ROOT . __DS . 'autoloader.php';
+require_once __ROOT . __DS . 'lib.php';
+require_once __ROOT . __DS . 'web.php';
 
 src\App\Route::init();
 
